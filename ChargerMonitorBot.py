@@ -5,7 +5,7 @@ import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-BOT_TOKEN = "8273880304:AAGeX9L0bLef17Lav5ZGxqPGSZ-BKa68TYU"
+BOT_TOKEN = "YOUR_TG_BOT_TOKEN"
 
 CHARGING_STATIONS = {
     "station 1": "THE_URL_THAT_RETURNS_JSON_DATA_FOR_STATION_1",
@@ -152,4 +152,5 @@ def main():
     application.run_polling()
 
 if __name__ == "__main__":
+
     main()
